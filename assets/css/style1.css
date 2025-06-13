@@ -238,16 +238,59 @@ html{
 .place-list {
     display: flex;
     padding: 32px 0px;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin-left: -8px;
     margin-right: -8px;
     
 }
 .place-list img{
     width: 100%;
+    display: block;
 }
 .place-item{
     padding: 0 8px;
+    
+}
+.place-item img:hover{
+    opacity: 0.6;
+}
+.place-text{
+    background-color: #fff;
+    color: #000;
+    padding: 0 16px;
+    display: block;
+    margin-bottom: 16px ;
+}
+.place-heading{
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+.place-item .sub-place-heading{
+    opacity: 0.6;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.place-item .place-description{
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    
+}
+.place-item .buy-ticket-btn{
+    margin-bottom: 15px;
+    padding: 8px 16px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.place-item .buy-ticket-btn:hover{
+    background-color: #bcb7b7;
+    color: #000;
 }
 
 #footer{
