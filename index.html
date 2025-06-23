@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <title>Document</title>
+    <title>Music Band</title>
 </head>
 
 <body>
@@ -106,7 +106,7 @@
                             <h3 class="place-heading">New York</h3>
                             <p class="sub-place-heading">Fri 27 Nov 2016</p>
                             <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="buy-ticket-btn" >Buy Tickets</a>
+                            <button class="buy-ticket-btn js-buy-ticket ">Buy Tickets</button>
                         </div>
                     </div>
                     <div class="place-item">
@@ -115,7 +115,7 @@
                             <h3 class="place-heading">Paris</h3>
                             <p class="sub-place-heading">Sat 28 Nov 2016</p>
                             <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="buy-ticket-btn">Buy Tickets</a>
+                            <button class="buy-ticket-btn js-buy-ticket">Buy Tickets</button>
                         </div>
                     </div>
                     <div class="place-item">
@@ -124,19 +124,78 @@
                             <h3 class="place-heading">San Francisco</h3>
                             <p class="sub-place-heading">Sun 29 Nov 2016</p>
                             <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="buy-ticket-btn">Buy Tickets</a>
+                            <button class="buy-ticket-btn js-buy-ticket">Buy Tickets</button>
                         </div>
                     </div>
                 </div>
-
-
             </div>
+        </div>
+        <!-- Contact -->
+        <div class="contact">
+            <div class="content-section">
+                <div class="section-heading">Contact</div>
+                <div class="sub-section-heading">Fan? Drop a note!</div>
+                <div class="contact-info">
+                    <div class="info-label">
+                        <label><i class="fa-solid fa-location-dot ml" style="margin-right: 15px;"></i> 
+                            Chicago, US
+                        </label>
+                        <label><i class="fa-solid fa-phone ml" style="margin-right: 15px;"></i> Phone: +00
+                            151515
+                        </label>
+                        <label><i class="fa-solid fa-envelope ml" style="margin-right: 15px;"></i> Email:
+                            mail@mail.com
+                        </label>
+                    </div>
+                    <form action="" class="input-info">
+                        <input type="text" name="" id="" placeholder="Name">
+                        <input type="text" name="" id="" placeholder="Email">
+                        <input type="text" name="" id="" placeholder="Message">
+                    </form>
+                </div>
+            </div>
+
         </div>
 
         <div id="footer">
 
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal-container">
+            <button class="modal-close-btn js-modal-close-btn"><i class="fa-solid fa-xmark in-mouse"></i></button>
+            <header class="modal-header">
+                <i class="fa-solid fa-briefcase" style="color: #ffffff;"></i>
+                <div style="margin-left: 20px; " class="modal-header-text">Tickets</div>
+            </header>
+
+            <div class="modal-body">
+                <label class="modal-lable" for="modal-quantity">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="modal-lable-font">Tickets, $15 per person</span>
+                </label>
+                <input type="text" class="modal-input" placeholder="How many?" id="modal-quantity">
+
+                <label class="modal-lable" for="modal-email">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="modal-lable-font">Send To</span>
+                </label>
+                <input type="email" class="modal-input" placeholder="Enter email" id="modal-email">
+
+                <button class="pay-btn" id="buy-tickets">PAY <i class="fa-solid fa-check"></i></button>
+
+                <div class="modal-help">Need <a href=""> help?</a></div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="./program.js">
+
+    </script>
 </body>
 
 </html>
