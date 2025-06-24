@@ -5,6 +5,7 @@
 }
 /* Commom */
 html{
+    scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -524,7 +525,11 @@ html{
     font-size: 24px;
     opacity: 0.6;
     margin-bottom: 32px;
-    color: #000 !important;
+    
+}
+.socials-list i{
+    /* color: #000; */
+    /* color: rgb(233, 118, 208); */
 }
 .socials-list i:hover{
     opacity: 0.6;
@@ -532,6 +537,9 @@ html{
 .poweredBy {
     margin-bottom: 79px;
     line-height: 1.4;
+    opacity: 0.6;
+}
+#footer a:hover{
     opacity: 0.6;
 }
 #footer {
