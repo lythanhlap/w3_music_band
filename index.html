@@ -130,37 +130,64 @@
                 </div>
             </div>
         </div>
-        <!-- Contact -->
+        <!-- Begin: Contact -->
         <div class="contact">
             <div class="content-section">
                 <div class="section-heading">Contact</div>
                 <div class="sub-section-heading">Fan? Drop a note!</div>
-                <div class="contact-info">
-                    <div class="info-label">
-                        <label><i class="fa-solid fa-location-dot ml" style="margin-right: 15px;"></i> 
+
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="fa-solid fa-location-dot "></i>
                             Chicago, US
-                        </label>
-                        <label><i class="fa-solid fa-phone ml" style="margin-right: 15px;"></i> Phone: +00
-                            151515
-                        </label>
-                        <label><i class="fa-solid fa-envelope ml" style="margin-right: 15px;"></i> Email:
-                            mail@mail.com
-                        </label>
+                        </p>
+                        <p><i class="fa-solid fa-phone "></i>
+                            Phone: +00151515
+                        </p>
+                        <p><i class="fa-solid fa-envelope "></i>
+                            Email:mail@mail.com
+                        </p>
                     </div>
-                    <form action="" class="input-info">
-                        <input type="text" name="" id="" placeholder="Name">
-                        <input type="text" name="" id="" placeholder="Email">
-                        <input type="text" name="" id="" placeholder="Message">
+                    <form action="" class="col col-half contact-form">
+                        <div class="row row-padding">
+                            <div class="col col-half">
+                                <input type="text" name="" id="" placeholder="Name" class="form-control" required>
+                            </div>
+                            <div class="col col-half">
+                                <input class="form-control" type="email" name="" id="" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="row row-padding row-mr">
+                            <div class="col col-full">
+                                <input class="form-control" type="text" name="" id="" placeholder="Message" required>
+                            </div>
+                        </div>
+                        <input type="submit" value="SEND" class="form-submit-btn">
                     </form>
+
+
                 </div>
             </div>
 
         </div>
+        <!-- End: Contact -->
+        <div class="map-section">
+            <img src="./assets/img/map/map.jpg" alt="Map">
+        </div>
 
         <div id="footer">
-
+            <div class="socials-list">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-snapchat "></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="poweredBy">Powered by <a href="">w3.css</a></div>
         </div>
     </div>
+
     <!-- Modal -->
     <div class="modal">
         <div class="modal-container">
@@ -193,6 +220,7 @@
 
         </div>
     </div>
+
     <script src="./program.js">
 
     </script>
